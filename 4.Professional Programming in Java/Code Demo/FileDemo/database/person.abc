@@ -1,0 +1,2 @@
+Person{id=1, fullname=Trần Quang Đạo, gender=true, birthday=2002-01-01}
+Person{id=2, fullname=Trần Duy Tiến, gender=true, birthday=2002-07-08}

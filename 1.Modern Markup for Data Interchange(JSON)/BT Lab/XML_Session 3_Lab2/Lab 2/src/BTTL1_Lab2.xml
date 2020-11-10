@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Bài tập tự làm 1-->
+<!DOCTYPE Orders SYSTEM "BTTL1_Lab2.dtd">
+<Orders>
+    <Order>
+        <OrderNo id="1"></OrderNo>
+        <OrderDate>11/11/2020</OrderDate>
+        <CustomerName>Nguyễn Văn A</CustomerName>
+        <Detail>
+            <ItemNo>1</ItemNo>
+            <ItemName>Nguyễn Văn B</ItemName>
+            <Quantity></Quantity>
+            <Price></Price>
+        </Detail>
+    </Order>
+    <Order>
+        <OrderNo id="2"></OrderNo>
+        <OrderDate>11/11/2020</OrderDate>
+        <CustomerName>Nguyễn Văn A</CustomerName>
+        <Detail>
+            <ItemNo>1</ItemNo>
+            <ItemName>Nguyễn Văn B</ItemName>
+            <Quantity>3</Quantity>
+            <Price>10.000</Price>
+        </Detail>
+    </Order>
+</Orders>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Bài tập lab 2:-->
+<books>
+    <book>
+        <title>PHP Toàn Tập</title>
+        <author>Hoàng Tuấn &amp; Công Trung</author>
+        <pages>325</pages>
+        <price>85.000 đ</price>
+    </book>
+    <book>
+        <title>Lập Trình Java</title>
+        <author>Jame Gosling</author>
+        <pages>609</pages>
+        <price>120.000 đ</price>
+    </book>
+    <book>
+        <title>Android cơ bản</title>
+        <author>Hoàng Tuấn &amp; Công Trung</author>
+        <pages>325</pages>
+        <price>85.000 đ</price>
+    </book>
+</books>

@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 19, 2020, 8:10:26 PM
+    Author     : Admin
+*/
+School{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+Name,NameSem,Address{
+    display:block;
+    background-color:Black;
+    color:White;
+}
+NameStudent{
+    display:block;
+    background-color:Gray;
+    color:White;
+}
+Subject{
+    display:block;
+}
+NameSubject,Mark{
+    text-align: center;
+}

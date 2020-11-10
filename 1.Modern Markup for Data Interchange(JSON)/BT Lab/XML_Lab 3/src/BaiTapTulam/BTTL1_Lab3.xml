@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<Orders
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='BTTL1_Lab3.xsd'>
+    <Order OrderNo="OD001">
+        <OrderDate>2020-08-20</OrderDate>
+        <Detail>
+            <ItemNo>01</ItemNo>
+            <ItemName>ABC</ItemName>
+            <Quantity>5</Quantity>
+            <Price>50000</Price>
+            <Customer>
+                <Name>Nguyễn Văn A</Name>
+                <Address>Hà Nội</Address>
+                <Email>anh@gmail.com</Email>
+            </Customer>
+        </Detail>
+    </Order>
+     <Order OrderNo="OD002">
+        <OrderDate>2020-08-20</OrderDate>
+        <Detail>
+            <ItemNo></ItemNo>
+            <ItemName></ItemName>
+            <Quantity></Quantity>
+            <Price>1</Price>
+            <Customer>
+                <Name></Name>
+                <Address></Address>
+                <Email></Email>
+            </Customer>
+        </Detail>
+    </Order>
+</Orders>

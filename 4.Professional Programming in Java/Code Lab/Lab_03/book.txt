@@ -1,0 +1,4 @@
+Book_Bai3{isbn=cx, bookName=dsd, author=hgh, publisher=hjh, price=54.0}
+Book_Bai3{isbn=sdx, bookName=sa, author=sd, publisher=sa, price=2.0}
+Book_Bai3{isbn=dsd, bookName=anh, author=sds, publisher=32, price=34.0}
+Book_Bai3{isbn=sdscx, bookName=hana, author=cs, publisher=sd, price=34.0}

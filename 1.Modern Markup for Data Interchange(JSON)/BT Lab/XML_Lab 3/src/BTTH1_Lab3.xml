@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<tblhoadon
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='BTTH1_Lab3.xsd'>
+    <id>01</id>
+    <ten>BanHang</ten>
+    <soluong>10</soluong>
+    <giatri>50.000</giatri>
+    <ngaylap>2020-11-11</ngaylap>
+
+</tblhoadon>

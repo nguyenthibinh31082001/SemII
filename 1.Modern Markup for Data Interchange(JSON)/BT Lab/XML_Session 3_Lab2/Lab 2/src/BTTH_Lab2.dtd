@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+<!ELEMENT SaleDetails (Sale*)>
+    
+    <!ELEMENT Sale (BillNumber, Date, Branch, Item, Payment)>
+    <!ELEMENT BillNumber (#PCDATA)>
+    <!ELEMENT Date (#PCDATA)>
+    <!ELEMENT Branch (#PCDATA)>
+    <!ELEMENT Item (Number, Name, Code, Quantity, Price, Discount, Total)>
+    <!ELEMENT Number (#PCDATA)>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Code (#PCDATA)>
+    <!ELEMENT Quantity (#PCDATA)>
+    <!ELEMENT Price (#PCDATA)>
+    <!ELEMENT Discount (#PCDATA)>
+    <!ELEMENT Total (#PCDATA)>
+    <!ELEMENT Payment (CardName, CustomerName, CardNumber, AccountNumber,GrandTotal)>
+    <!ELEMENT CardName (#PCDATA)>
+    <!ELEMENT CustomerName (#PCDATA)>
+    <!ELEMENT CardNumber (#PCDATA)>
+    <!ELEMENT AccountNumber (#PCDATA)>
+    <!ELEMENT GrandTotal (#PCDATA)>
+    <!ATTLIST Payment Mode (Card|Cash) #REQUIRED>
+    <!ATTLIST Name Category (Apparel|Footwear) "Apparel">
+    <!ATTLIST CardName Type (Credit|Debit) "Credit">
+    <!ENTITY VH "Van Huesen">
+    <!ENTITY AS "Allen Solly">
+
+
+    
+

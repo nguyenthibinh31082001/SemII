@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Bài tập lab 1:-->
+<student>
+    <name>Nguyễn Thị Bình</name>
+    <dob>31/08/2001</dob>
+    <gender>Nữ</gender>
+    <rollnumber>C1908I1</rollnumber>
+</student>

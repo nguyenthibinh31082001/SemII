@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<bookstore
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='BTTH0_Lab3.xsd'>
+    <book ISBN="123456">
+        <title>XML Đơn giản</title>
+        <author>Quế Ngọc Hải</author>
+        <category>Lập trình</category>
+        <year>2016</year>
+        <edition>Đoàn Nguyên Đức</edition>
+        <price>$69</price>
+    </book>
+
+</bookstore>

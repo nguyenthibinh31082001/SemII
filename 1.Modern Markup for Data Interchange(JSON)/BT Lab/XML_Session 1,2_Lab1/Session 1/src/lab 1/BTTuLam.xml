@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Bài tập tự làm-->
+<BankAccount>
+    <Number>035301003968</Number>
+    <Type>Viettinbank</Type>
+    <OpenDate>11/11/2011</OpenDate>
+    <Balance>50.000.000</Balance>
+    <AccountHolder>
+        <LastName>Nguyễn Thị</LastName>
+        <FirstName>Bình</FirstName>
+    </AccountHolder>
+</BankAccount>
+

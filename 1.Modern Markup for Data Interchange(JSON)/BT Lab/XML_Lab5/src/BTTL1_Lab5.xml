@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<?xml-stylesheet type="text/xsl" href="BTTL1_Lab5.xsl" ?>
+<FootBall>
+    <foot>
+        <san>Thống Nhất</san>
+        <ngay>2020-11-11</ngay>
+        <doi1>SLNA</doi1>
+        <soBT>9</soBT>
+        <doi2>CGS</doi2>
+        <soBT2>6</soBT2>
+    </foot>
+    <foot>
+        <san>Thống Nhất</san>
+        <ngay>2020-11-11</ngay>
+        <doi1>SLNA</doi1>
+        <soBT>9</soBT>
+        <doi2>CGS</doi2>
+        <soBT2>6</soBT2>
+    </foot>
+    <foot>
+        <san>Thống Nhất</san>
+        <ngay>2020-11-11</ngay>
+        <doi1>SLNA</doi1>
+        <soBT>9</soBT>
+        <doi2>CGS</doi2>
+        <soBT2>6</soBT2>
+    </foot>
+</FootBall>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<?xml-stylesheet type="text/css" href="BTTL3_Lab4.css"?>
+<content>
+    <title>Tuesday 20 June</title>
+    <time> 
+        <time_bold>6:00 News</time_bold> With Michael Smith and Fiona Tolstoy. Followed by Weather with Malcolm Stott
+    </time>
+    <time> 
+        <time_bold>6:30 Regional news update</time_bold> Local news for your area
+    </time>
+    <time> 
+        <time_bold>7:00 Unlikely suspect</time_bold> Local news for your area followed by Weather with Malcolm Stott
+    </time>
+</content>

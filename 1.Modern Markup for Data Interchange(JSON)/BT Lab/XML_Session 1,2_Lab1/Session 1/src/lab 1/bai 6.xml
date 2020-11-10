@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- bài tập 6-->
+<d:DataSheet xmlns:d="http://data-sheet.com/list">
+    <d:travel-tours>
+        <d:Ten>Nguyễn Văn A</d:Ten>
+        <d:DiaDiem>Vịnh Hạ Long</d:DiaDiem>
+        <d:TravelDetails>
+            <d:cheđodulich>Tàu</d:cheđodulich>
+            <d:tenchedo>Tàu trung tâm</d:tenchedo>
+        </d:TravelDetails>
+        <d:songuoidi>2</d:songuoidi>
+        <d:ngaykhoihanh>03-04-07</d:ngaykhoihanh>
+        <d:chiteit_sotien>
+            <d:phuongthucthanhtoan>Thẻ ngân hàng</d:phuongthucthanhtoan>
+            <d:loaithe>Viettinbank</d:loaithe>
+            <d:sotien>10000000</d:sotien>
+        </d:chiteit_sotien>
+        <d:sđt>0344244689</d:sđt>
+        <d:Hotel>
+            <d:diachi>Bãi Cháy, Hạ Long, Quảng Ninh</d:diachi>
+            <d:CheckIn>03-04-07</d:CheckIn>
+            <d:chiteit_sotien>
+                <d:phuongthucthanhtoan>Thẻ ngân hàng</d:phuongthucthanhtoan>
+                <d:loaithe>Viettinbank</d:loaithe>
+                <d:sotien>5000000</d:sotien>
+            </d:chiteit_sotien>
+            <d:CheckOut>10-04-07</d:CheckOut>
+        </d:Hotel>
+    </d:travel-tours>
+</d:DataSheet>
+

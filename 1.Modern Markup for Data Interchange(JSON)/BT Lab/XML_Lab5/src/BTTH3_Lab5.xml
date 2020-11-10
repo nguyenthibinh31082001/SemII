@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<?xml-stylesheet type="text/xsl" href="BTTH3_Lab5.xsl" ?>
+<BookList>
+    <book id="1">
+        <name>SQL SERVER 2008</name>
+        <author>Phạm Hữu Khang</author>
+        <pages>404</pages>
+        <price>98</price>
+    </book>
+    <book id="2">
+        <name>Fundamentals of Database Systems</name>
+        <author>Ramez Elmasri</author>
+        <pages>552</pages>
+        <price>175</price>
+    </book>
+    <book id="3">
+        <name>Lap trinh co ban voi C</name>
+        <author>GS. Pham Van At</author>
+        <pages>552</pages>
+        <price>45</price>
+    </book>
+    <book id="4">
+        <name>Microsoft .NET: The Programming Bible</name>
+        <author>O'Brien, Timd</author>
+        <pages>350</pages>
+        <price>90</price>
+    </book>
+    <book id="5">
+        <name>Fundamentals of Database Systems</name>
+        <author>Ramez Elmasri</author>
+        <pages>536</pages>
+        <price>106</price>
+    </book>
+</BookList>

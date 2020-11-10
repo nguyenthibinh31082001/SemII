@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- bài tập 8-->
+
+<categories xmlns:c="http:/bai8lab1.com/category" xmlns:p="http://bai8lab1.com/product">
+	<c:category>
+		<c:id>1</c:id>
+		<c:name>Điện thoại</c:name>
+		<p:product p:color="black">
+			<p:id>34</p:id>
+			<p:name>Samsung A20</p:name>
+		</p:product>
+		<p:product p:color="grey">
+			<p:id>56</p:id>
+			<p:name>Iphone X</p:name>
+		</p:product>
+	</c:category>
+	<c:category>
+		<c:id>2</c:id>
+		<c:name>LapTop</c:name>
+		<p:product p:color="black">
+			<p:id>78</p:id>
+			<p:name>Laptop Dell</p:name>
+		</p:product>
+		<p:product p:color="white">
+			<p:id>89</p:id>
+			<p:name>Laptop Acer</p:name>
+		</p:product>
+	</c:category>
+	
+</categories>

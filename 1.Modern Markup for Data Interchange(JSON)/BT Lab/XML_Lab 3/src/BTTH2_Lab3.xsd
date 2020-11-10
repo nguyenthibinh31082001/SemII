@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <!-- Định nghĩa kiểu dữ liệu ĐỊA CHỈ có các thẻ -->
+    <xs:complexType name="diachi">
+        <xs:sequence>
+            <xs:element name="sonha" type="length20"/>
+            <xs:element name="duong" type="length20"/>
+            <!-- Phường/X -->
+            <xs:choice>
+                <xs:element name="phuong" type="length20"/>
+                <xs:element name="xa" type="length20"/>
+            </xs:choice>
+            <!-- Quận/Huyện -->
+            <xs:choice>
+                <xs:element name="quan" type="length20"/>
+                <xs:element name="huyen" type="length20"/>
+            </xs:choice>
+            <!-- Thành phố/Tỉnh -->
+            <xs:choice>
+                <xs:element name="thanhpho" type="length20"/>
+                <xs:element name="tinh" type="length20"/>
+            </xs:choice>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- Định nghĩa kiểu dữ liệu chuỗi giới hạn 20 ký tự -->
+    <xs:simpleType name="length20">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="20"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- Định nghĩa kiểu dữ liệu THÔNG TIN THÀNH VIÊN có các thẻ -->
+    <xs:complexType name="ttThanhVien">
+        <xs:sequence>
+            
+        </xs:sequence>
+    </xs:complexType>
+    <!-- Chuỗi số gồm số -->
+    <xs:simpleType name="soCMND">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{9}" />
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- Giới hạn giá trị là Nam/Nữ -->
+    <xs:simpleType name="gioiTinh">
+        <xs:restriction>
+            <xs:pattern value="Nam|Nữ"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- Định nghĩa kiểu dữ liệu TT thành viên (Chủ hộ) -->
+    <xs:complexType name="ttCoBan">
+        <xs:sequence>
+            <xs:element name="soCMND" type="soCMND"/>
+            <xs:element name="ho" type="length20"/>
+            <xs:element name="ten" type="length20"/>
+            <xs:element name="nguyenquan" type="length20"/>
+            <xs:element name="gioiTinh" type="gioiTinh"/>
+            <xs:element name="ngaySinh" type="xs:date"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- Định nghĩa kiểu dữ liệu TT thành viên đầy đủ (thành viên khác) -->
+    <xs:complexType name="ttDayDu">
+        <xs:complexContent>
+            <xs:extension base="ttCoBan">
+                <xs:sequence>
+                    <xs:element name="moiQuanHe" type="length20"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <!-- Định nghĩa root gốc là thẻ DSHoKhau có nhiều HoKhau -->
+    <xs:element name="DSHoKhau">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="HoKhau" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="DiaChi" type="diachi"/>
+                            <xs:element name="ChuHo" type="ttCoBan"/>
+                            <xs:element name="ThanhVien" type="ttDayDu"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

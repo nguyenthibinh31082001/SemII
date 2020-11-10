@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<?xml-stylesheet type="text/css" href="BTTL4_Lab4.css"?>
+<body>
+    <body1>
+        <title>
+            <h1>Improving  an XML feed display throught CSS and XSLT</h1>
+        </title>
+        <content>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur illo aperiam tenetur reiciendis ad, harum quasi sed eaque non architecto</content>
+        <day>Sun, 06 Mar 2005 00:00:00 MST</day>
+        <contact>http://www.xefteri.com/articles/show.cfm?id=24</contact>
+    </body1>
+    <body2>
+        <title>
+            <h1>Improving  an XML feed display throught CSS and XSLT</h1>
+        </title>
+        <content>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur illo aperiam tenetur reiciendis ad, harum quasi sed eaque non architecto</content>
+        <day>Sun, 06 Mar 2005 00:00:00 MST</day>
+        <contact>http://www.xefteri.com/articles/show.cfm?id=25</contact>
+    </body2>
+    <body3>
+        <title>
+            <h1>Improving  an XML feed display throught CSS and XSLT</h1>
+        </title>
+        <content>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur illo aperiam tenetur reiciendis ad, harum quasi sed eaque non architecto</content>
+        <day>Sun, 06 Mar 2005 00:00:00 MST</day>
+        <contact>http://www.xefteri.com/articles/show.cfm?id=26</contact>
+    </body3>
+</body>
+

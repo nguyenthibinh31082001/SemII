@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- bài tập 5-->
+<orders xmlns="http://www.bai5lab1.com/order" xmlns:recipient="httm://www.bai5lab1.com/recipient">
+    <order>
+        <name>Nguyễn Công Phượng</name>
+        <address>69 phố Hàng Lươn</address>
+        <phone>19001265</phone>
+        <recipient:name>Hoàng Ngọc Trinh</recipient:name>
+        <recipient:address>123 đường Mất Hút</recipient:address>
+        <recipient:phone>6677028</recipient:phone>
+    </order>
+    <order>
+        <name>Phạm Văn Mách</name>
+        <address>69 phố Hàng Lươn</address>
+        <phone>19001265</phone>
+        <recipient:name>Phạm Văn Mách</recipient:name>
+        <recipient:address>33 Gầm cầu Long Biên</recipient:address>
+        <recipient:phone>19001265</recipient:phone>
+    </order>
+    <order>
+        <name>Tiến Đạt</name>
+        <address>11 Ngã tư Bùng Binh</address>
+        <phone>457568568</phone>
+        <recipient:name>Trấn Thành</recipient:name>
+        <recipient:address>99 Bờ Đê sông Sài Gòn</recipient:address>
+        <recipient:phone>909785623</recipient:phone>
+    </order>
+</orders>
+
+

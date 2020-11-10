@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<?xml-stylesheet type="text/css" href="BTTH4_Lab4.css"?>
+<School abc="aptech">
+    <Name>BachKhoa-Aptech Computer Educatino</Name>
+    <Address>250 - Hoàng Quốc Việt - Hà Nội</Address>
+    <Sem>
+        <NameSem>Semesters 1</NameSem>
+        <Student>
+            <NameStudent> Nguyễn Văn A</NameStudent>
+            <Subject>
+                <NameSubject>PHP</NameSubject>
+                <Mark>15</Mark>
+            </Subject>
+            <Subject>
+                <NameSubject>CF</NameSubject>
+                <Mark>23</Mark>
+            </Subject>
+        </Student>
+        <NameSem>Semesters 2</NameSem>
+        <Student>
+            <NameStudent>Nguyễn Văn A</NameStudent>
+            <Subject>
+                <NameSubject>Java</NameSubject>
+                <Mark>15</Mark>
+            </Subject>
+            <Subject>
+                <NameSubject>XML</NameSubject>
+                <Mark>23</Mark>
+            </Subject>
+        </Student>
+    </Sem>
+</School>

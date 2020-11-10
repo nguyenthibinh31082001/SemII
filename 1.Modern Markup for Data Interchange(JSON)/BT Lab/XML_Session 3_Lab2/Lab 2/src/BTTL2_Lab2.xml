@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- bài tập tự làm 2-->
+<!DOCTYPE houses SYSTEM "BTTL2_Lab2.dtd">
+<houses>
+    <house>
+        <room name="room1">
+            <dimensions>
+               <width>10</width>
+                <length>10</length> 
+            </dimensions>
+            <windows>
+                <window>
+                    <elevation facing="west">dcd</elevation>
+                    <width>23</width>
+                    <height>23</height>
+                </window> 
+            </windows>
+            <furniture>n n</furniture>
+        </room>
+    </house>
+</houses>

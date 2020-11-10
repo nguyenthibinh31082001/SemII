@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<?xml-stylesheet type="text/css" href="BTTL2_Lab4.css"?>
+ <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Bài 2</title>
+       
+    </head>  
+    <body>
+        <h3>UNIT-I</h3>
+        <table>
+            <tr>
+                <th>Lecture Number</th>
+                <th>Topic Description</th>
+            </tr>
+            <tr id="tr1">
+                <td>Lecture-1</td>
+                <td>Introduction to HTML, HTML basic tags</td>
+            </tr>
+            <tr id="tr2">
+                <td>Lecture-2</td>
+                <td>HTML images, links, style</td>
+            </tr>
+            <tr id="tr1">
+                <td>Lecture-3</td>
+                <td>HTML table, HTML List</td>
+            </tr>
+            <tr id="tr2">
+                <td>Lecture-4</td>
+                <td>Introduction to HTML, HTML basic tags</td>
+            </tr>
+            <tr id="tr1">
+                <td>Lecture-3</td>
+                <td>HTML table, HTML List</td>
+            </tr>
+            <tr id="tr2">
+                <td>Lecture-4</td>
+                <td>Introduction to HTML, HTML basic tags</td>
+            </tr>
+            <tr id="tr1">
+                <td>Lecture-3</td>
+                <td>HTML table, HTML List</td>
+            </tr>
+            <tr id="tr2">
+                <td>Lecture-4</td>
+                <td>Introduction to HTML, HTML basic tags</td>
+            </tr>
+        </table>
+    </body>                                
+</html>

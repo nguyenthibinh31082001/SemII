@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- bài tập 3-->
+<?xml-stylesheet href="bai3.css" ?>
+<students>
+    <student id="tr">
+        <firstname>Firstname</firstname>
+        <lastname>Lastname</lastname>
+        <email>Email</email>
+        </student>
+    <student>
+        <firstname>Michael</firstname>
+        <lastname>Krasowski</lastname>
+        <email>michaelk@pdsa.com</email>
+    </student>
+    <student>
+        <firstname>Michael</firstname>
+        <lastname>Krasowski</lastname>
+        <email>michaelk@pdsa.com</email>
+    </student>
+    <student>
+        <firstname>Michael</firstname>
+        <lastname>Krasowski</lastname>
+        <email>michaelk@pdsa.com</email>
+    </student>
+</students>

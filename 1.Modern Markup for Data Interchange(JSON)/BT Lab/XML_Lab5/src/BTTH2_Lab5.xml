@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<?xml-stylesheet type="text/xsl" href="BTTH2_Lab5.xsl" ?>
+<breakfast_menu>
+    <food>
+        <name>Phở bò sốt vang</name>
+        <price>55.000 vnđ</price>
+        <description>Phở chính hiệu Cồ Nam Định, bò bắt ở Tây Tạng Trung
+        Quốc</description>
+        <calories>6500</calories>
+    </food>
+    <food>
+        <name>Bánh Cuốn Phủ Lý</name>
+        <price>18.500 vnđ</price>
+        <description>Làm từ hạt gạo tinh chất thành Nam</description>
+        <calories>900</calories>
+    </food>
+    <food>
+        <name>Bánh Giò Phố Cổ</name>
+        <price>12.500 vnđ</price>
+        <description>Hương vị thơm ngon khó cưỡng</description>
+        <calories>1236</calories>
+    </food>
+</breakfast_menu>

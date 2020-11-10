@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 19, 2020, 8:01:08 PM
+    Author     : Admin
+*/
+
+Name{
+    display: block;
+    border-bottom: solid 2px pink;
+    border-top: solid 2px pink;
+    border-left: solid 2px pink;
+    border-right: solid 2px pink;
+    color: white;
+    background: #cc6633;
+    text-align:center;
+    padding-bottom:5px;
+    padding-top:5px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+FullName,BirthDay,Address,Email{
+    display:block;
+    text-indent:50px;
+    text-align: center;
+}
+Email{
+    border-bottom: solid 2px gray;
+    width: 50%;
+    margin: auto;
+}

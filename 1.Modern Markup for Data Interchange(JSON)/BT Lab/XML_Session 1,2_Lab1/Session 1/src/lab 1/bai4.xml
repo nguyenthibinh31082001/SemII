@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- bài thực hành 4-->
+ <?xml-stylesheet href="bai4.css" ?>
+ <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Bài 4 Lab1</title>
+       
+    </head>  
+    <body>
+        <table border="1">
+            <tr>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Product Quanlity</th>
+                <th>Product Quantity</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Giầy</td>
+                <td>Tốt</td>
+                <td>Chiếc</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Dép</td>
+                <td>Hàng cũ</td>
+                <td>Cái</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Guốc</td>
+                <td>Hư hỏng</td>
+                <td>Kg</td>
+            </tr>
+        </table>
+    </body>                                
+</html>
+<!--<products>
+    <product id="tr">
+        <id>Product ID</id>
+        <name>Product Name</name>
+        <quality>Product Quanlity</quality>
+        <quantity>Product Quantity</quantity>
+    </product>
+    <product>
+        <id>1</id>
+        <name>Giầy</name>
+        <quality>Tốt</quality>
+        <quantity>Chiếc</quantity>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Dép</name>
+        <quality>Hàng cũ</quality>
+        <quantity>Cái</quantity>
+    </product>
+    <product>
+        <id>3</id>
+        <name>Guốc</name>
+        <quality>Hư hỏng</quality>
+        <quantity>Kg</quantity>
+    </product>
+</products>-->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<?xml-stylesheet type="text/css" href="BTTH3_Lab4.css"?>
+<Classes>
+    <Class>
+        <Name>C1908I</Name>
+        <Student>
+            <FullName>Hoàng Hà</FullName>
+            <BirthDay>1986-12-1</BirthDay>
+            <Address>Hà Nội</Address>
+            <Email>hah@gmail.com</Email>
+        </Student>
+        <Student>
+            <FullName>Nguyễn Cửu Long</FullName>
+            <BirthDay>1982-09-04</BirthDay>
+            <Address>Hà Nội</Address>
+            <Email>longnc@yahoo.com</Email>
+        </Student>
+    </Class>
+    <Class>
+    <Name>C1908G</Name>
+    <Student>
+        <FullName>Lê Hải Nam</FullName>
+        <BirthDay>1984-02-12</BirthDay>
+        <Address>Nam Định</Address>
+        <Email>namlh@yahoo.com</Email>
+    </Student>
+    </Class>
+</Classes>
+

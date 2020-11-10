@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--bài tâọ 9-->
+<product xmlns:p="http://product.com" xmlns="http://category.com">
+	<code>TTSS-0001</code>
+	<name>Tivi LG</name>
+	<category>Tivi</category>
+	<desciption>
+		<p:desc-first>Black</p:desc-first>
+		<p:desx-second>53 inch</p:desx-second>
+	</desciption>
+	<image xmlsn="http://product.com/image">
+		<avatar>tivi.png</avatar>
+		<description>description.jpg</description>
+	</image>
+</product>
+
+

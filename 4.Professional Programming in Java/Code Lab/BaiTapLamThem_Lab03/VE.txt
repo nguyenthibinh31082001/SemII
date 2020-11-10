@@ -1,0 +1,2 @@
+ten=cdc, gia=3, xuatChieu=null, ngayXem=2004-11-11, regExpTen=^[a-zA-Z0-9 ]{1,20}$
+ten=fdv, gia=4, xuatChieu=null, ngayXem=2000-11-11, regExpTen=^[a-zA-Z0-9 ]{1,20}$

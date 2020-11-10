@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<?xml-stylesheet type="text/xsl" href="BT_XPath.xsl" ?>
+<Employees>
+    <Employee id="E01">
+        <Name>
+            <FirstName>Hung</FirstName>
+            <LastName>Nguyen Van</LastName>
+        </Name>
+        <Gender>Male</Gender>
+        <Birthday day="11" month="12" year="1995">11-12-1995</Birthday>
+        <Company country="Viet Nam">Usol - VietNam</Company>
+    </Employee>
+    <Employee id="E02">
+        <Name>
+            <FirstName>Thanh</FirstName>
+            <LastName>Nguyen Tran</LastName>
+        </Name>
+        <Gender>Male</Gender>
+        <Birthday day="06" month="05" year="1997">06-05-1997</Birthday>
+        <Company country="Japan">Usol - Japan</Company>
+    </Employee>
+    <Employee id="E03">
+        <Name>
+            <FirstName>Tien</FirstName>
+            <LastName>Nguyen Duc</LastName>
+        </Name>
+        <Gender>Male</Gender>
+        <Birthday day="21" month="07" year="1994">21-07-1994</Birthday>
+        <Company country="Viet Nam">F-Soft</Company>
+    </Employee>
+    <Employee id="E04">
+        <Name>
+            <FirstName>Huyen</FirstName>
+            <LastName>Nguyen Thi</LastName>
+        </Name>
+        <Gender>Female</Gender>
+        <Birthday day="01" month="08" year="1995">01-08-1995</Birthday>
+        <Company country="Viet Nam">F-Soft</Company>
+    </Employee>
+    <Employee id="E05">
+        <Name>
+            <FirstName>Mai</FirstName>
+            <LastName>Nguyen Thanh</LastName>
+        </Name>
+        <Gender>Female</Gender>
+        <Birthday day="11" month="03" year="1996">11-03-1996</Birthday>
+        <Company country="France">Exo</Company>
+    </Employee>
+</Employees>

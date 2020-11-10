@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- bài tập 3-->
+ <?xml-stylesheet href="bai3.css" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Bài 3 Lab1</title>
+       
+    </head>  
+    <body>
+        <h2>Add Row To Table</h2>
+        <table border="1">
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Krasowski</td>
+                <td>michaelk@pdsa.com</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Krasowski</td>
+                <td>michaelk@pdsa.com</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>Krasowski</td>
+                <td>michaelk@pdsa.com</td>
+            </tr>
+        </table>
+    </body>                                
+</html>
+<!--<students>
+    <student id="tr">
+        <firstname>Firstname</firstname>
+        <lastname>Lastname</lastname>
+        <email>Email</email>
+        </student>
+    <student>
+        <firstname>Michael</firstname>
+        <lastname>Krasowski</lastname>
+        <email>michaelk@pdsa.com</email>
+    </student>
+    <student>
+        <firstname>Michael</firstname>
+        <lastname>Krasowski</lastname>
+        <email>michaelk@pdsa.com</email>
+    </student>
+    <student>
+        <firstname>Michael</firstname>
+        <lastname>Krasowski</lastname>
+        <email>michaelk@pdsa.com</email>
+    </student>
+</students>-->
